@@ -1,5 +1,5 @@
  let config={
- 	type:Phaser.CANVAS, //auto automatically detect which rendring type is best for your browser
+ 	type:Phaser.CANVAS, //auto automatically detect which rendering type is best for your browser
 
  	scale:{  //scale if a object to give the information of game
  		mode:Phaser.Scale.FIT,//refer phaser.scale.manager for more details
@@ -36,7 +36,7 @@
  	background.displayWidth = W;
 
  	// now we are goind to find the coordinates where i want to place this image; 
- 	let ground=this.add.tileSprite(0,H-128,W,128,'ground');// if we use only sprite it will place a single image but we use tileSprite then it will place a image repeatadly to the width we will give and height also;
+ 	let ground=this.add.tileSprite(0,H-128,W,128,'ground');// if we use only sprite it will place a single image but we use tileSprite then it will place a image repeatedly to the width we will give and height also;
  	ground.setOrigin(0,0);
 
 
