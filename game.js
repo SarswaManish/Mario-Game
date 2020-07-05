@@ -1,5 +1,5 @@
  let config={
- 	type:Phaser.CANVAS, //auto automatically detect which rendering type is best for your browser
+ 	type:Phaser.AUTO, //auto automatically detect which rendering type is best for your browser
 
  	scale:{  //scale if a object to give the information of game
  		mode:Phaser.Scale.FIT,//refer phaser.scale.manager for more details
